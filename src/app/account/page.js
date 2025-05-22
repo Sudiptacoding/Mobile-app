@@ -1,5 +1,5 @@
-// app/account/page.jsx or pages/account.jsx
 
+import Image from "next/image";
 import React from "react";
 
 export default function AccountSettings() {
@@ -15,7 +15,7 @@ export default function AccountSettings() {
           {/* User Info */}
           <div className="flex items-center gap-4 px-6 pt-5 pb-2">
             <div className="relative">
-              <img
+              <Image
                 alt="profile"
                 className="rounded-full w-16 h-16 object-cover border"
                 src="https://educase-react-js.vercel.app/profile.png"
